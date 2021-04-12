@@ -1,0 +1,21 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav-content>
+    <mat-toolbar>
+      <div class="logo">
+        <img src="./assets/EggSite.png">
+      </div>
+      <div class="links">
+        <mat-nav-list class="list-horizontal">
+          <a mat-list-item routerLink="/home">Home</a>
+          <a mat-list-item routerLink="/home">About Us</a>
+          <a mat-list-item routerLink="/home">Contact Us</a>
+          <a mat-list-item routerLink="/cart">Cart</a>
+          <a mat-list-item href="/signIn">Sign In</a>
+        </mat-nav-list>
+      </div> 
+    </mat-toolbar>
+
+    <router-outlet></router-outlet>
+    <!-- Add Content Here -->
+  </mat-sidenav-content>
+</mat-sidenav-container>

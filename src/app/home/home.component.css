@@ -1,0 +1,56 @@
+.grid-container {
+  margin: 20px;
+}
+
+.dashboard-card {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+
+.more-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.dashboard-card-content {
+  text-align: center;
+}
+
+.background img{
+  max-width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 2px 0px #000000;
+}
+
+.overlayText1 {
+  width: 600px;
+  position: absolute;
+  top: 320px;
+  left: 50px;
+  color: white;
+  -webkit-text-stroke: 0.7px;
+  -webkit-text-stroke-color: black;
+  font-size: 32px;
+  text-shadow: 4ch;
+}
+
+.overlayButton {
+  position: absolute;
+  top: 360px;
+  left: 250px;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(39, 49, 145);
+  border-radius: 5px;
+}
+
+.overlayButton a{
+  color: white;
+  text-decoration: none;
+}

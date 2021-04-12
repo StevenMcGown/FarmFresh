@@ -1,0 +1,41 @@
+mat-nav-list.list-horizontal {
+    padding: 0;
+    .mat-list-item {
+      display: inline-block;
+      height: auto;
+      width: auto;
+    }
+}
+
+.mat-toolbar.mat-primary {
+    height: 86px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.mat-toolbar {
+    height: 80px;
+    background: #86000b;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+  
+.logo img{
+    position: relative;
+    top: 17px;
+    left: -12px; 
+    height: 110px;
+}
+
+.links {
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+}
+
+.links a {
+    color: white;
+}
+
