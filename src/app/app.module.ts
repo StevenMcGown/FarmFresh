@@ -21,6 +21,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SignInComponent } from './sign-in/sign-in.component';
+import { ReserveComponent } from './reserve/reserve.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SignInComponent } from './sign-in/sign-in.component';
     HomeComponent,
     NavComponent,
     SignUpComponent,
-    SignInComponent
+    SignInComponent,
+    ReserveComponent
   ],
   imports: [
     BrowserModule,
