@@ -6,25 +6,32 @@
     <iframe
       src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%2386000b&amp;ctz=America%2FNew_York&amp;src=dXU1ZmVic2dnY2xxbjFlcmJpZm5kMzgzdGtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23E67C73&amp;showTz=0&amp;showDate=1&amp;showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0"
       style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
     <div class="datePicker">
+
       <div class="text">
         <p><b>Select the day of the week you would like to receive your eggs</b></p>
       </div>
+
       <button mat-raised-button (click)="picker.open()">Choose a date</button>
+
       <div class="dateSelection">
         <mat-form-field class="date_picker" appearance="legacy">
-          <input matInput [matDatepicker]="picker">
+          <input matInput [matDatepickerFilter]="myFilter" [matDatepicker]="picker">
           <mat-datepicker #picker></mat-datepicker>
         </mat-form-field>
         <br>
       </div>
+
       <br>
+
       <div class="bottom">
         <mat-select>
           <mat-option>-- None --</mat-option>
           <mat-option value="option">Option</mat-option>
         </mat-select>
       </div>
+      
     </div>
   </div>
 </body>
