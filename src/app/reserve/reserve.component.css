@@ -22,7 +22,7 @@
 
 .calendar {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%,-50%);
   max-width: 800px;
@@ -31,7 +31,49 @@
 }
 
 .background img{
-  height:91vh;
+  height:91.65vh;
   width: 100%;
   object-fit: fill;
+}
+
+.datePicker {
+  float:center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  width: 100%;
+  height: 40px;
+}
+
+.datePicker mat-form-field {
+  right: 30px;
+  height: 20px;
+}
+
+.datePicker mat-date-picker {
+  height: 30px;
+}
+
+
+.datePicker .text {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  width:50%;
+}
+
+.datePicker .dateSelection {
+  display: block;
+  margin-bottom: 1;
+  float: right;
+  width: 200px;
+  height: 30px;
+}
+
+.datePicker .dateSelection mat-raised-button {
+  margin-top: 10px;
+  display: block;
+}
+
+.datePicker .dateSelection input {
+  height: 15px;
 }
