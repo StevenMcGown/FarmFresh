@@ -24,6 +24,7 @@ import { SignInComponent } from './sign-in/sign-in.component';
 import { ReserveComponent } from './reserve/reserve.component';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatDatepickerModule } from '@angular/material/datepicker';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
     NavComponent,
     SignUpComponent,
     SignInComponent,
-    ReserveComponent
+    ReserveComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
